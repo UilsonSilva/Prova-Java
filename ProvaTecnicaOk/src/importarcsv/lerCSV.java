@@ -22,7 +22,7 @@ public class lerCSV {
 				
 				String[] valoresVirgulas = linhasDoArquivoO.split(";");
 				
-				System.out.println(valoresVirgulas [0] +" / "+valoresVirgulas [12]+" / "+valoresVirgulas [13]); 
+				System.out.println(valoresVirgulas [0] +" / "+valoresVirgulas [12]+" / "+valoresVirgulas [13]);//saída 
 							
 			}
 					
@@ -30,7 +30,7 @@ public class lerCSV {
 		
 		}
 	
-		/**File arquivoDCSV = new File("D:\\DadosMercado.csv");
+		File arquivoDCSV = new File("D:\\DadosMercado.csv");
 				
 				try {
 					String linhasDoArquivoD = new String ();
@@ -42,6 +42,10 @@ public class lerCSV {
 						
 						linhasDoArquivoD = leitorda.nextLine();
 						
+						String[] valoresVirgulas = linhasDoArquivoD.split(";");
+						
+						System.out.println(valoresVirgulas [0] +" / "+valoresVirgulas [2]);
+						
 						System.out.println(linhasDoArquivoD);
 						
 					}
@@ -49,7 +53,7 @@ public class lerCSV {
 				}catch(FileNotFoundException e) {
 				
 				}
-		*/
+		
 	
 	
 	
